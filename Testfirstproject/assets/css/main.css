@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    width: calc(100% - 102.58px );
+    margin:auto
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+a{
+ text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 6666px;
+    background-color: aliceblue;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:9;
+    box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px 0;
+}
+header .logo, footer .logo  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img, footer .logo img {
+    width: 35px; 
+  
+}
+
+header .logo a{
+    color: #545BE8;
+}
+
+
+
+header nav ul{
+    display: flex;
+    gap: 16.47px;
+    flex-wrap: wrap;
+
+}
+
+header nav ul li a{
+    color: #101928;
+}
+header .auth{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+header .auth a{
+    padding: 5.354px 30px;
+    border-radius:15px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+header .auth .login{
+    color: #545BE8;
+    border: 0.412px solid #545BE8;
+}
+
+header .auth .register{
+    color: #FFF;
+    background: #545BE8;
+
+}
+main{
+    height: 100%;
+}
+footer{
+    padding: 50px 0;
+    background: #393E46;
+    color:#FFF;
+
+}
+
+.footer .row{
+    gap: 40px;
+}
+
+.footer-left-side, .footer-right-side{
+    width: calc((100% - 40px)/2);
+    
+}
+
+.footer-left-side{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+footer a{
+    color: #FFF;
+    font-size: 14px;
+}
+footer .icons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+footer .icons svg{
+    width: 20px;
+    height: 20px;
+    border: 0.412px solid #FFF;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+
+footer .footer-right-side{
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap; 
+    padding: 30px 0;
+}
+.footer-item{
+    width: calc((100% - 30px)/4);
+
+
+}
+.footer-item nav {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.footer-item h2 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+ 
+}
+.footer-item h2, .footer-item nav a {
+        text-align: left; 
+    }
+
+.footer-item nav a{
+    color: #FFF; 
+    text-decoration: none; 
+    margin-bottom: 5px;
+    font-size: 16px; 
+}
+
+.footer-item nav a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+
